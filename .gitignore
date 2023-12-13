@@ -1,0 +1,14 @@
+/.phpunit.cache
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+/.fleet
+/.idea
+/.vscode
+.DS_Store
+composer.phar
+composer_2.phar
