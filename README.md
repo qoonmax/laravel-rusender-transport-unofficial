@@ -1,6 +1,5 @@
 # Laravel RuSender Transport Unofficial
-
----
+![Image alt](https://github.com/qoonmax/laravel-rusender-transport-unofficial/blob/main/lrtu.png)
 
 ## Установка
 
