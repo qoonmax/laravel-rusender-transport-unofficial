@@ -16,13 +16,18 @@
   "require-dev": {},
   "autoload": {
     "psr-4": {
-      "Qoonmax\\RuSenderApiMailTransport\\": "src/"
+      "Qoonmax\\RuSenderApiMailTransport\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Qoonmax\\RuSenderApiMailTransport\\": "src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Qoonmax\\RuSenderApiMailTransport\\Providers\\RuSenderTransportProvider"
+        "Qoonmax\\RuSenderApiMailTransport\\RuSenderTransportProvider"
       ]
     }
   },
