@@ -1,6 +1,5 @@
 # Laravel RuSender Transport Unofficial
-
----
+![Image alt](https://github.com/qoonmax/laravel-rusender-transport-unofficial/blob/main/lrtu.png)
 
 ## Установка
 
@@ -19,7 +18,7 @@ php artisan vendor:publish
 ```
 
 ### Шаг 3: Изменение переменных окружения
-Опубликуйте сервис-провайдер и файл конфигурации с помощью:
+Обновите ваш .env файл, чтобы включить следующие параметры:
 
 ```
 MAIL_MAILER=rusender
