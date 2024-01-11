@@ -7,14 +7,14 @@
 Чтобы установить пакет, выполните следующую команду в терминале:
 
 ```bash
-composer require qoonmax/laravel-rusender-transport-unofficial
+composer require qoonmax/laravel-rusender-transport-unofficial:dev-main
 ```
 
 ### Шаг 2: Публикация сервис-провайдера и файла конфигурации
 Опубликуйте сервис-провайдер и файл конфигурации с помощью:
 
 ```bash
-php artisan vendor:publish
+php artisan vendor:publish --provider="Qoonmax\RuSenderApiMailTransport\Providers\RuSenderTransportProvider"
 ```
 
 ### Шаг 3: Изменение переменных окружения
