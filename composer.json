@@ -13,6 +13,7 @@
     "php": "^8.0",
     "laravel/framework": "^10.0"
   },
+  "require-dev": {},
   "autoload": {
     "psr-4": {
       "Qoonmax\\RuSenderApiMailTransport\\": "src/"
@@ -24,5 +25,7 @@
         "Qoonmax\\RuSenderApiMailTransport\\Providers\\RuSenderTransportProvider"
       ]
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "version": "0.1.0"
 }
