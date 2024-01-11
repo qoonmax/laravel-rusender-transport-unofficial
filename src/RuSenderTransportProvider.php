@@ -4,7 +4,7 @@ namespace Qoonmax\RuSenderApiMailTransport;
 
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\ServiceProvider;
-use Qoonmax\RusenderApiMailTransport\RuSenderTransport\RuSenderTransportFactory;
+use Qoonmax\RuSenderApiMailTransport\RuSenderTransport\RuSenderTransportFactory;
 use Symfony\Component\Mailer\Transport\Dsn;
 
 class RuSenderTransportProvider extends ServiceProvider

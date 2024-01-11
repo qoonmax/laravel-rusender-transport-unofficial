@@ -3,8 +3,8 @@
 namespace Qoonmax\RuSenderApiMailTransport\RuSenderTransport;
 
 use Psr\Log\LoggerInterface;
-use Qoonmax\RusenderApiMailTransport\RuSenderTransport\Exceptions\TooManyRecipients;
-use Qoonmax\RusenderApiMailTransport\RuSenderTransport\Exceptions\TooManySenders;
+use Qoonmax\RuSenderApiMailTransport\RuSenderTransport\Exceptions\TooManyRecipients;
+use Qoonmax\RuSenderApiMailTransport\RuSenderTransport\Exceptions\TooManySenders;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\Mailer\Envelope;
 use Symfony\Component\Mailer\Exception\HttpTransportException;
