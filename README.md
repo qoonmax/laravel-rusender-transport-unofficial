@@ -14,7 +14,7 @@ composer require qoonmax/laravel-rusender-transport-unofficial:dev-main
 Опубликуйте сервис-провайдер и файл конфигурации с помощью:
 
 ```bash
-php artisan vendor:publish --provider="Qoonmax\RuSenderApiMailTransport\Providers\RuSenderTransportProvider"
+php artisan vendor:publish --provider="Qoonmax\RuSenderApiMailTransport\RuSenderTransportProvider"
 ```
 
 ### Шаг 3: Изменение переменных окружения
