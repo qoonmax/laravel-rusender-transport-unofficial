@@ -31,8 +31,7 @@ class RuSenderTransportProvider extends ServiceProvider
         });
 
         $this->publishes([
-            __DIR__ . '/../../config/rusender.php' => config_path('rusender.php'),
-            __DIR__ . '/RuSenderTransportProvider.php' => app_path('Providers/RuSenderTransportProvider.php'),
+            __DIR__ . '/../config/rusender.php' => config_path('rusender.php'),
         ]);
     }
 }
