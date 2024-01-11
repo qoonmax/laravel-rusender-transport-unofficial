@@ -25,7 +25,7 @@ class RuSenderTransportProvider extends ServiceProvider
                 new Dsn(
                     scheme: 'api',
                     host: 'default',
-                    password: config('services.rusender.key'),
+                    password: config('rusender.key'),
                 )
             );
         });
